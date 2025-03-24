@@ -1,0 +1,19 @@
+{
+  "name": "captioning-service",
+  "version": "1.0.0",
+  "description": "Realtime captioning service with usage tracking",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.16.0",
+    "lorem-ipsum": "^2.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+} 
